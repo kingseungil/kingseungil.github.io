@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 프로필 사진   */
+.img {
+    justify-content: center;
+}
+#profile-img {
+    width: 150px;
+    height: 150px;
+    transform: scale(1); /* 이미지 사이즈 고정 */
+    border-radius: 70%;
+}
+.menu-bar {
+    position: fixed;
+    background-color: lightgrey;
+    width: 200px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* 목차 */
+.index h3 {
+    color: black;
+    opacity: 0.7;
+    cursor: pointer;
+    font-family: 'Yeon Sung', cursive;
+}
+/* 목차 각 항목 반응형 커서 */
+.index h3:hover {
+    font-size: 20px;
+    opacity: 0.7;
+    cursor : pointer;
+}
+.name {
+    margin-left: 250px;
+    font-size: 65px;
+    font-weight: 900;
+    font-family: 'Yeon Sung', cursive;
+}
+.contacts {
+    margin-top: -40px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    opacity: 0.5;
+    font-family: 'Yeon Sung', cursive;
+}
+.main-introduction {
+    margin-left: 250px;
+    font-size: 17px;
+    font-family: 'Yeon Sung', cursive;
+}
+.main-introduction img {
+    margin-right: 50px;
+    border: 5px solid lightgray;
+    width: 200px;
+    height: 200px;
+    transition: all 0.3s ease-in-out;
+}
+/* sns 픽토그램 */
+.social-icon{
+    margin-right: 50px;
+    color:black;
+    opacity: 0.5;
+
+}
+.social-icons {
+    margin-left: 250px;
+}
+footer :hover{
+    cursor : pointer;
+    transform: translateY(-3px);
+}
+.favorite{
+    margin-left: 250px;
+    font-size: 65px;
+    font-weight: 900;
+    font-family: 'Yeon Sung', cursive;
+}
+
+.content img {
+    margin-right: 50px;
+    border: 5px solid lightgray;
+    width: 200px;
+    height: 200px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 커서 올릴 시 이미지 크게(모든 이미지 파일에 적용) */
+img:hover {
+    transform: scale(2);
+    /*-webkit-transform: scale(1.7); !* 크롬 *!*/
+    /*-moz-transform: scale(1.7); !* 파이어폭스 *!*/
+    /*-o-transform: scale(1.7); !* 오페라 *!*/
+    align-items: center;
+}
+/*방명록부분*/
+
+.to_me{
+    margin-left: 250px;
+    font-weight: 900;
+    font-family: 'Yeon Sung', cursive;
+}
+
+.mypost {
+    width: 95%;
+    max-width: 500px;
+    margin: 20px auto 20px auto;
+
+    box-shadow: 0px 0px 3px 0px black;
+    padding: 20px;
+}
+
+.mypost > button {
+    margin-top: 15px;
+}
+
+.mycards {
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.mycards > .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*구분선*/
+hr {
+    width: 95%;
+    background-color: #fff;
+    padding: 0;
+    margin: 80px;
+}
+hr.hr-18 {
+    background-color: #fff;
+    height: 30px;
+    border: 1px solid #8c8c8c;
+    border-radius: 20px;
+}
